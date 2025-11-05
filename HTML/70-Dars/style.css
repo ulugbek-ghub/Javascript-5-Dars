@@ -1,0 +1,114 @@
+*{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav a{
+    color: #fff;
+}
+
+.nav-center{
+    display: flex;
+    gap: 8rem;
+}
+
+.nav-sign a{
+    text-decoration: underline;
+}
+
+.nav-sign{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+button{
+    background: #F9C06A;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    color: #000;
+    font-size: 20px;
+}
+
+header{
+    width: 100%;
+    height: 968px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/coffee_image.png);
+}
+
+h1{
+    font-size: 220px;
+    font-family: "Clicker Script",sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.menu{
+    margin: 8rem 0 0 5rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container h2{
+    font-size: 55px;
+    margin: 0;
+    font-family: "Playfair Display";
+    color: #603809;
+}
+
+.container p{
+    color: #707070;
+    font-size: 20px;
+}
+
+.container .second {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9C06A6B;
+}
+
+.card-mini {
+    background: #F9C06A34;
+    border: 1px solid #F9C06A6B;
+    padding-bottom: 1rem;
+}
+
+.card-mini h3 {
+    color: #603809;
+    font-size: 24px;
+}
+
+.card-mini h4 {
+    color: #603809;
+    font-family: "Playfair Display";
+    font-size: 18px;
+}

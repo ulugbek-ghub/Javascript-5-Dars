@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Prompt', sans-serif;
+    font-weight: regular;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 60px 0 60px;
+    background: black;
+}
+
+.nav-left a {
+    color: white;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-mid a {
+    color: white;
+    text-decoration: none;
+    margin: 0 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-right button {
+    background: yellow;
+    color: black;
+    border: none;
+    padding: 12px 32px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.1rem;
+    font-weight: regular;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px 60px 0 60px;
+    min-height: 80vh;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+    max-width: 600px;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin: 0 0 18px 0;
+    color: white;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 32px;
+    max-width: 500px;
+}
+
+header button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    background-color: #242424;
+    padding: 14px 32px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.1rem;
+    font-weight: regular;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.head-img {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items:end;
+    justify-content:end;
+}
+.head-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background: transparent;
+}

@@ -1,0 +1,23 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: green;
+    padding: 20px;
+    display: grid;
+
+    grid-template-columns: 200px 500px 200px 100px;
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+}
+
+div {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+} */
+

@@ -1,0 +1,53 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./cof-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .menu {
+    background-color: #d2a679;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .section-title {
+    margin: 20px auto 10px;
+    font-weight: bold;
+    width: 87%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  .footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  img.icon {
+    width: 20px;
+    vertical-align: middle;
+  }

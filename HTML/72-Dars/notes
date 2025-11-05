@@ -1,0 +1,4 @@
+em - o'lchov birligi bolib, elementning font-size xossasig asoslanib hisoblanadi.
+Agar elementning font-size xossasi bo'lmasa u ota-ona (parent) elementning font-size
+qiymati, unda ham bo'lmasa ajdodning font-size qiymati asoslanadi.
+

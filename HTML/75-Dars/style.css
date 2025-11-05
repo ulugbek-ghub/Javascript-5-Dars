@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    padding: 23px 67px;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+nav a {
+    margin: 0 67px;
+    text-decoration: none;
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.account {
+    font-size: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px;
+}

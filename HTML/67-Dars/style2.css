@@ -1,0 +1,31 @@
+body {
+    background-color: #3f72af;
+    color: white;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-family: Helvetica;
+    max-width: 1200px;
+}
+
+nav {
+    background-color: #112D4e;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    text-align: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}

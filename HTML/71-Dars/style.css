@@ -1,0 +1,87 @@
+/* <!-- h1 - selector (tanlovchi)
+color property (xossa)
+red value (qiymat)
+
+Selectors 
+1) Element
+2) Class
+3) ID
+4) Attribute - <p disable> Hello </p>
+5) Universal - *
+
+* {
+    color: red;
+    background-color: blue;
+}
+
+class ga 1dan kop qiymat berish mumkin
+id ga 1ta qiymat berish mumkin emas
+
+
+
+
+
+
+
+
+
+ --> */
+
+/* #hello {
+    color: red;
+    background-color: blue;
+}
+
+.hello {
+    color: blue;
+    background-color: red;
+} */
+
+html {
+    font-size: 20px;
+}
+hr {
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
