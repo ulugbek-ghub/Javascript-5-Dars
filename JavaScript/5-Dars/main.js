@@ -28,7 +28,6 @@
 // Mavzu: Shartli operatorlar
 // if - agarda 
 // else if - aks holda 
-// elif - yokida
 
 const age = +prompt("Muzeyga kirishdan oldin yoshingizni ayting: ")
 if (age <= 12) {
